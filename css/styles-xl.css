@@ -1,0 +1,35 @@
+@media (min-width: 1416px) {
+    .video {
+        position: fixed;
+        left: auto;
+        margin-left: -152px;
+        width: 128px;
+        /* bottom: auto; */
+        bottom: 50px;
+        height: 180px;
+    }
+
+    .video:before {
+        padding-bottom: 180px;
+    }
+
+    .video.video-open {
+        max-width: initial;
+        width: 1000px;
+        height: 540px;
+        top: calc(100% - 570px);
+    }
+
+    .video {
+        left: auto;
+        margin-left: -152px;
+        width: 128px;
+        top: calc(100% - 210px);
+        position: sticky;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        max-width: 1464px;
+    }
+}
